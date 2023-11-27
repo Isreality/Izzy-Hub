@@ -1,0 +1,135 @@
+:root {
+    --primaryColor:#FF6915;
+    --textColor: rgba(0, 0, 0, 0.6);
+    --white: #ffffff;
+    /*--headingSize: 2rem;
+    --headingWeight: 500;*/
+}
+	
+body {
+	font-family: Raleway, san-serif;
+}
+
+/* Form */	
+.con{
+    margin: 0;
+    background-image: url("../img/sign_up.png");
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: right;
+    background-size: contain;
+    
+}
+
+.con p{
+    font-size: 16px;
+}
+
+.con label{
+    font-weight: normal;
+}
+
+.fr{
+    padding: 70px;
+    margin: 0;
+}
+
+
+.heading{
+    color: var(--primaryColor) !important;
+    font-weight: bold;
+}
+
+.hb{
+    background-image: url("../img/happy.jpg");
+    background-repeat: no-repeat;
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.form-control{
+    background-color: #fafafa;
+    border: 0;
+    height: 60px;
+    padding: 40px;
+}
+
+.pd{
+    display: flex;
+    flex-direction: row;
+}
+
+.cb{
+    background-color: var(--primaryColor);
+    color: var(--white);
+    border:none;
+    border-radius: 100px;
+    padding: 15px 50px;
+    transition: 0.2s;
+}
+
+.cb:hover{
+    background-color: var(--white);
+    color: var(--primaryColor) !important;
+    border: 1px solid var(--primaryColor);
+    text-decoration: none;
+}
+
+
+/* Media Query */
+@media screen and (max-width: 600px) {
+    
+
+    /* Form */	
+    .con{
+        margin-top: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 0;
+        background-image: url("../img/sign_up.png");
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: right;
+        background-size: cover;
+        margin-top: 0px;   
+        background-blend-mode: multiply;
+    }
+
+    .con p{
+        font-size: 16px;
+        color: var(--white);
+    }
+
+    .con label{
+        font-weight: normal;
+        color: var(--white);
+        font-size: 2rem;
+    }
+
+    .form-control{
+        background-color: #fafafa;
+        border: 0;
+        height: 60px;
+        padding: 40px;
+    }
+
+
+    .cb{
+        background-color: var(--primaryColor);
+        color: var(--white);
+        border:none;
+        border-radius: 100px;
+        padding: 15px 50px;
+        transition: 0.2s;
+    }
+
+    .cb:hover{
+        background-color: var(--white);
+        color: var(--primaryColor) !important;
+        border: 1px solid var(--primaryColor);
+        text-decoration: none;
+    }
+
+  }
