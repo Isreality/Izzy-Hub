@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Izzy Hub</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+
+	<button id="btt"><i class="fa fa-arrow-up"></i></button>
+	<!-- navigation -->
+	<nav class="navbar navbar-default" style="margin-bottom: 0;">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="home.html">Izzy Hub</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<i class="fa fa-bars"></i>
+				</button>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="home.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="programme.html">Programmes</a></li>
+					<li><a href="contact.html" class="active">Contact</a></li>
+					<li ><a href="login.html" class="hbt1">Logout</a></li>
+				</ul>
+			</div>				
+		</div>
+	</nav>
+
+	<!-- Hero Section -->
+	<div class="container-fluid text-center hero" >
+		<h2>Contact</h2><br>
+	</div><br>
+	
+	<!-- Form -->
+	<div class="container con" style="padding-top: 60px;">
+		<div class="row">
+			<div class="col-sm-7">
+				<h1 class="heading">Send us a message</h1><br>
+				<form action="/action_page.php">
+					<div class="row">
+						<div class="form-group col-sm-6">
+							<label for="name">Name</label>
+							<input type="name" class="form-control .input-lg" id="name">
+						  </div>
+	
+						<div class="form-group col-sm-6">
+							  <label for="email">Email address</label>
+							  <input type="email" class="form-control .input-lg" id="email">
+						</div>
+					</div>
+					
+
+					<div class="form-group">
+					  	<label for="name">Subject</label>
+					  	<input type="name" class="form-control .input-lg" id="name">
+					</div>
+
+					<div class="form-group">
+					  	<label for="comment">Message</label>
+						<textarea class="form-control" rows="10" id="comment"></textarea>
+					</div><br>
+
+					<a href="" class="cb">Submit</a>
+				  </form>
+			</div>
+
+			<div class="col-sm-5">
+				<h1 class="heading">Enquiries</h1><br>
+				<p>Email <br> ankra@gmail.com</p>
+				<p>Telephone No <br> 01234567890</p>
+					
+					<div class="icons">
+						<img src="./img/facebook.png" class="img-responsive" alt="">
+						<img src="./img/google.png" class="img-responsive" alt="">
+						<img src="./img/twitter.png" class="img-responsive" alt="">
+					</div>
+			</div>
+		</div>
+
+	</div><br><br><br><br>
+
+	<!-- Footer -->
+	<footer class="container-fluid foot">
+		<div class="row">
+			<div class="col-sm-6">
+				<h1>Izzy Hub</h1>
+				<p>Established in 2023, our school has been a cornerstone of our community, providing generations of students with a quality education and a solid foundation for their future endeavors.</p>
+
+					<h3 style="color: var(--white);">Follow Us On</h3>
+					<div class="icons">
+						<img src="./img/facebook.png" class="img-responsive" alt="">
+						<img src="./img/google.png" class="img-responsive" alt="">
+						<img src="./img/twitter.png" class="img-responsive" alt="">
+					</div>
+					
+			</div>
+
+			<div class="col-sm-3">				
+				<a href="home.html">Home</a>
+				<a href="about.html">About</a>
+				<a href="programme.html">Programme</a>
+				<a href="contact.html">Contact</a>
+			</div>
+
+			<div class="col-sm-3">
+				<p>P.O. Box 2240,<br>
+					Federal University of Agriculture,<br>					
+					Abeokuta</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/npm.js"></script>
+
+	<script>
+		const backToTopButton = document.querySelector("#btt");
+
+		window.addEventListener("scroll", scrollFunction);
+
+		function scrollFunction(){
+			if(window.pageYOffset > 300){
+				if(!backToTopButton.classList)
+				backToTopButton.classList.add("btnEntrance");
+				backToTopButton.style.display = "block"
+			}
+			else{
+				backToTopButton.classList.add("btnExit");
+				backToTopButton.style.display = "none"
+			}
+		}
+
+		backToTopButton.addEventListener("click", backToTop);
+
+		function backToTop(){
+			window.scrollTo(0,0);
+		}
+	</script>
+
+</body>
+</html>

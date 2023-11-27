@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Izzy Hub</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.css">
+ <script src="./js/bootstrap.min.js"></script>
+ <script src="./js/jquery-1.9.0.min.js"></script>
+</head>
+<body>
+
+
+<!-- Form -->
+<div class="container-fluid con" style="padding-top: 60px;">
+    <div class="container row fr">
+        <div class="col-sm-8">
+            <h1 class="heading">Sign In</h1><br>
+            <form action="home.html" method="GET" name="myForm" onsubmit="return validateForm()">            
+                <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control in input-lg" id="email" placeholder="Enter email" required>
+                </div><br>
+
+                <div class="form-group">
+                    <label for="pwd">Password</label>
+                        <input type="password" class="form-control input-lg" id="pwd" placeholder="Enter password" required>                      
+              </div><br>
+
+                <input type="submit" value="Sign In" class="cb text-center" style="display: inline-block; width: 100%; font-size: 16px; font-weight: 600;">
+            </form><br><br>
+            <p>Don't have an Account? <b><a href="signup.html" style="color: var(--primaryColor);">Sign Up</a></b></p>
+        </div>
+
+        <!--<div class="container-fluid col-sm-5">
+           
+        </div>-->
+    </div>            
+
+</div><br><br><br><br>
+
+<script>
+    function validateForm() {
+    var x = document.forms["myForm"]["email"].value;
+    if (x == "") {
+        alert("Email must be filled out");
+        return false;
+  }
+
+  var x = document.forms["myForm"]["pwd"].value;
+    if (x == "") {
+        alert("Email must be filled out");
+        return false;
+
+    }
+  }
+
+
+</script>
+	
+</body>
+</html>
