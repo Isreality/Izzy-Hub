@@ -19,7 +19,7 @@ const Header = () => {
         <>
         {/* <div className="sticky top-0 w-full bg-white flex flex-wrap justify-between px-20 py-4 m-0 z-50 items-center border-primary border-b-2"> */}
             {/* Mobile */}
-            <div className="md:hidden flex flex-row justify-between items-center gap-10 bg-white px-4 py-2 rounded-full left-0 w-full">
+            <div className="md:hidden flex flex-row justify-between items-center gap-5 bg-white px-4 py-2 rounded-full left-0 w-full">
                 <div className="md:hidden items-center">                
                     <Link to='/Home' ><h1 className="mb-4 mt-4 font-extrabold text-primary text-lg">Izzy Hub</h1></Link>
                 </div>
@@ -31,7 +31,7 @@ const Header = () => {
                             <div className="flex bg-white flex-col absolute inset-x-0 top-0 h-80 p-8 gap-10 z-[100] w-full">
                             {HeaderData.map((nav) => (
                                 <div key={nav.id}>
-                                    <NavLink to={nav.path} className=" m-2 text-black hover:text-white hover:bg-primary font-medium hover:border-2 hover:rounded-full hover:border-primary px-8 py-4">{nav.title}</NavLink>
+                                    <NavLink to={nav.path} className=" m-2 text-black hover:text-white text-sm hover:bg-primary font-medium hover:border-2 hover:rounded-full hover:border-primary px-8 py-4">{nav.title}</NavLink>
                                 </div> 
                             ))}
                             </div> 
