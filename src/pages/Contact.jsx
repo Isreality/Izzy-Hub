@@ -72,8 +72,7 @@ const Contact = () => {
 
                             <div className="space-y-1 md:space-y-2 items-start text-left mb-2">
                                 <label className="text-xs md:text-sm text-black2">Subject</label>
-                                <input className="border p-4 w-full rounded-md border-disable bg-white focus:outline-disable text-black2 text-xs md:text-sm" 
-                                placeholder="Enter full name"/>
+                                <input className="border p-4 w-full rounded-md border-disable bg-white focus:outline-disable text-black2 text-xs md:text-sm" />
                             </div>
 
                             <div className="space-y-1 md:space-y-2 items-start text-left">

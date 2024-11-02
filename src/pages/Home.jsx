@@ -112,7 +112,7 @@ const Home = () => {
                         {/* About Image */}
                         <div className="">
                             <Fade direction="right" triggerOnce="true">
-                                <img src={home_history} className=" w-full md:w-[90%] h-full md:h-full object-cover rounded-xl mb-4" alt="chart" />
+                                <img src={home_history} className=" w-full md:w-[90%] h-full md:h-full object-cover rounded-xl mb-2" alt="chart" />
                             </Fade>
                         </div>
                     </div>
@@ -183,43 +183,43 @@ const Home = () => {
                         {/* E-Learning Facilities */}
                         <div className="grid gap-2 justify-items-start border-[0.5px] border-f2 px-8 py-10 rounded-md">
                             <img src={e_learning_icon} alt="e_learning_icon" className="size-20"/>
-                            <h1 className="text-xl text-left text-primary font-bold">E-Learning Facilities</h1>
-                            <p className="text-base text-justify text-black2 font-normal">Our e-learning facilities are designed to ensure seamless and engaging online education.</p>
+                            <h1 className="text-lg md:text-xl text-left text-primary font-bold">E-Learning Facilities</h1>
+                            <p className="text-sm md:text-base text-justify text-black2 font-normal">Our e-learning facilities are designed to ensure seamless and engaging online education.</p>
                         </div>
                         
                         {/* Scholarship Opportunities */}
                         <div className="grid gap-2 justify-items-start border-[0.5px] border-f2 px-8 py-10 rounded-md">
                             <img src={scholarship_icon} alt="e_learning_icon" className="size-20"/>
-                            <h1 className="text-xl text-left text-primary font-bold">Scholarship Opportunities</h1>
-                            <p className="text-base text-justify text-black2 font-normal">Scholarships are awarded to students who have demonstrated outstanding academic achievements.</p>
+                            <h1 className="text-lg md:text-xl text-left text-primary font-bold">Scholarship Opportunities</h1>
+                            <p className="text-sm md:text-base text-justify text-black2 font-normal">Scholarships are awarded to students who have demonstrated outstanding academic achievements.</p>
                         </div>
                         
                         {/* Affordable Fee */}
                         <div className="grid gap-2 justify-items-start border-[0.5px] border-f2 px-8 py-10 rounded-md">
                             <img src={affordable_icon} alt="e_learning_icon" className="size-20"/>
-                            <h1 className="text-xl text-left text-primary font-bold">Affordable Fee</h1>
-                            <p className="text-base text-justify text-black2 font-normal">To ease the financial burden, we provide flexible payment plans and installment options.</p>
+                            <h1 className="text-lg md:text-xl text-left text-primary font-bold">Affordable Fee</h1>
+                            <p className="text-sm md:text-base text-justify text-black2 font-normal">To ease the financial burden, we provide flexible payment plans and installment options.</p>
                         </div>
                         
                         {/* Accomodation */}
                         <div className="grid gap-2 justify-items-start border-[0.5px] border-f2 px-8 py-10 rounded-md">
                             <img src={accomodation_icon} alt="e_learning_icon" className="size-20"/>
-                            <h1 className="text-xl text-left text-primary font-bold">Accomodation</h1>
-                            <p className="text-base text-justify text-black2 font-normal">Our on-campus housing offers a variety of room types to accommodate different preferences and needs.</p>
+                            <h1 className="text-lg md:text-xl text-left text-primary font-bold">Accomodation</h1>
+                            <p className="text-sm md:text-base text-justify text-black2 font-normal">Our on-campus housing offers a variety of room types to accommodate different preferences and needs.</p>
                         </div>
                         
                         {/* Learning Environment */}
                         <div className="grid gap-2 justify-items-start border-[0.5px] border-f2 px-8 py-10 rounded-md">
                             <img src={learning_environment_icon} alt="e_learning_icon" className="size-20"/>
-                            <h1 className="text-xl text-left text-primary font-bold">Learning Environment</h1>
-                            <p className="text-base text-justify text-black2 font-normal">Learning environment that nurtures the intellectual, social, and emotional development of our students.</p>
+                            <h1 className="text-lg md:text-xl text-left text-primary font-bold">Learning Environment</h1>
+                            <p className="text-sm md:text-base text-justify text-black2 font-normal">Learning environment that nurtures the intellectual, social, and emotional development of our students.</p>
                         </div>
                         
-                        {/* WHy Choose Us */}
+                        {/* Active Alumni */}
                         <div className="grid gap-2 justify-items-start border-[0.5px] border-f2 px-8 py-10 rounded-md">
                             <img src={alumni_icon} alt="e_learning_icon" className="size-20"/>
-                            <h1 className="text-xl text-left text-primary font-bold">Active Alumni</h1>
-                            <p className="text-base text-justify text-black2 font-normal">Their success stories serve as an inspiration to current and future students, showcasing the transformative power of education.</p>
+                            <h1 className="text-lg md:text-xl text-left text-primary font-bold">Active Alumni</h1>
+                            <p className="text-sm md:text-base text-justify text-black2 font-normal">Their success stories serve as an inspiration to current and future students, showcasing the transformative power of education.</p>
                         </div>
                         </Fade>
                     </div>
@@ -233,24 +233,24 @@ const Home = () => {
                         <div className="grid gap-2 justify-items-start px-0 py-2 md:py-4 rounded-md overflow-hidden">
                             <img src={undergraduate} alt="undergraduate" className="h-125 w-full object-cover hover:scale-105"/>
                             <div className="px-0 md:px-0 py-4 md:py-2">
-                                <h1 className="text-xl text-left text-primary font-bold">Undergraduate</h1>
-                                <p className="text-base text-justify text-black2 font-normal">We offer a wide array of majors and specializations across various disciplines.</p>
+                                <h1 className="text-lg md:text-xl text-left text-primary font-bold">Undergraduate</h1>
+                                <p className="text-sm md:text-base text-justify text-black2 font-normal">We offer a wide array of majors and specializations across various disciplines.</p>
                             </div>   
                         </div>
 
                         <div className="grid gap-2 justify-items-start px-0 py-2 md:py-4 rounded-md overflow-hidden">
                             <img src={post_graduate} alt="undergraduate" className="h-125 w-full object-cover hover:scale-105"/>
                             <div className="px-0 md:px-0 py-4 md:py-2">
-                                <h1 className="text-xl text-left text-primary font-bold">Postgraduate</h1>
-                                <p className="text-base text-justify text-black2 font-normal">Equip students with the skills needed to excel in their chosen professions.</p>
+                                <h1 className="text-lg md:text-xl text-left text-primary font-bold">Postgraduate</h1>
+                                <p className="text-sm md:text-base text-justify text-black2 font-normal">Equip students with the skills needed to excel in their chosen professions.</p>
                             </div>   
                         </div>
 
                         <div className="grid gap-2 justify-items-start px-0 py-2 md:py-4 rounded-md overflow-hidden">
                             <img src={direct_entry} alt="undergraduate" className="h-125 w-full object-cover hover:scale-105"/>
                             <div className="px-0 md:px-0 py-4 md:py-2">
-                                <h1 className="text-xl text-left text-primary font-bold">Direct Entry</h1>
-                                <p className="text-base text-justify text-black2 font-normal">Our direct entry program offers a curriculum that covers a wide range of disciplines.</p>
+                                <h1 className="text-lg md:text-xl text-left text-primary font-bold">Direct Entry</h1>
+                                <p className="text-sm md:text-base text-justify text-black2 font-normal">Our direct entry program offers a curriculum that covers a wide range of disciplines.</p>
                             </div>   
                         </div>
                         

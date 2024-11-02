@@ -77,7 +77,7 @@ const Programme = () => {
                         {/* About Image */}
                         <div className="">
                             <Fade direction="right" triggerOnce="true">
-                                <img src={undergraduate} className=" w-full md:w-full h-full md:h-full object-cover rounded-xl mb-4" alt="chart" />
+                                <img src={undergraduate} className=" w-full md:w-full h-full md:h-full object-cover rounded-xl mb-2" alt="chart" />
                             </Fade>
                         </div>
                     </div>
@@ -106,7 +106,7 @@ const Programme = () => {
                         {/* About Image */}
                         <div className="">
                             <Fade direction="left" triggerOnce="true">
-                                <img src={post_graduate} className=" w-full md:w-full h-full md:h-full object-cover rounded-xl mb-4" alt="chart" />
+                                <img src={post_graduate} className=" w-full md:w-full h-full md:h-full object-cover rounded-xl mb-2" alt="chart" />
                             </Fade>
                         </div>
                     </div>

@@ -139,63 +139,57 @@ const About = () => {
                     <Fade direction="left" triggerOnce="true"><Head header="Faculty and Staff Directory"/></Fade>
                     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8">
                         <Fade triggerOnce="true">
-                        <div className="grid gap-2 justify-items-start border border-f2 px-2 py-2 md:py-2 rounded-md overflow-hidden">
+                        <div className="grid gap-2 justify-items-start border border-white md:border-f2 px-2 py-2 md:py-2 rounded-md overflow-hidden">
                             <img src={bruce_wayne} alt="undergraduate" className="h-full w-full object-cover hover:scale-105"/>
                             <div className="px-0 md:px-4 py-4 md:py-2">
-                                <h1 className="text-xl text-left text-primary font-bold">Bruce Wayne</h1>
-                                <p className="text-base text-justify text-black2 font-medium">Vice Chancellor</p>
+                                <h1 className="text-lg md:text-xl text-left text-primary font-bold">Bruce Wayne</h1>
+                                <p className="text-sm md:text-base text-justify text-black2 font-medium">Vice Chancellor</p>
                             </div>   
                         </div>
 
-                        <div className="grid gap-2 justify-items-start border border-f2 px-2 py-2 md:py-2 rounded-md overflow-hidden">
+                        <div className="grid gap-2 justify-items-start border border-white md:border-f2 px-2 py-2 md:py-2 rounded-md overflow-hidden">
                             <img src={oliver_queen} alt="undergraduate" className="h-full w-full object-cover hover:scale-105"/>
                             <div className="px-0 md:px-4 py-4 md:py-2">
-                                <h1 className="text-xl text-left text-primary font-bold">Olivia Queen</h1>
-                                <p className="text-base text-justify text-black2 font-medium"> Deputy Vice Chancellor</p>
+                                <h1 className="text-lg md:text-xl text-left text-primary font-bold">Olivia Queen</h1>
+                                <p className="text-sm md:text-base text-justify text-black2 font-medium"> Deputy Vice Chancellor</p>
                             </div>   
                         </div>
 
-                        <div className="grid gap-2 justify-items-start border border-f2 px-2 py-2 md:py-2 rounded-md overflow-hidden">
+                        <div className="grid gap-2 justify-items-start border border-white md:border-f2 px-2 py-2 md:py-2 rounded-md overflow-hidden">
                             <img src={selina_kyle} alt="undergraduate" className="h-full w-full object-cover hover:scale-105"/>
                             <div className="px-0 md:px-4 py-4 md:py-2">
-                                <h1 className="text-xl text-left text-primary font-bold">Selina Kyle</h1>
-                                <p className="text-base text-justify text-black2 font-medium">Registrar</p>
+                                <h1 className="text-lg md:text-xl text-left text-primary font-bold">Selina Kyle</h1>
+                                <p className="text-sm md:text-base text-justify text-black2 font-medium">Registrar</p>
                             </div>   
                         </div>
 
-                        <div className="grid gap-2 justify-items-start border border-f2 px-2 py-2 md:py-2 rounded-md overflow-hidden">
+                        <div className="grid gap-2 justify-items-start border border-white md:border-f2 px-2 py-2 md:py-2 rounded-md overflow-hidden">
                             <img src={bruce_banner} alt="undergraduate" className="h-full w-full object-cover hover:scale-105"/>
                             <div className="px-0 md:px-4 py-4 md:py-2">
-                                <h1 className="text-xl text-left text-primary font-bold">Bruce Banner</h1>
-                                <p className="text-base text-justify text-black2 font-medium">Bursar</p>
+                                <h1 className="text-lg md:text-xl text-left text-primary font-bold">Bruce Banner</h1>
+                                <p className="text-sm md:text-base text-justify text-black2 font-medium">Bursar</p>
                             </div>   
                         </div>
 
-                        <div className="grid gap-2 justify-items-start border border-f2 px-2 py-2 md:py-2 rounded-md overflow-hidden">
+                        <div className="grid gap-2 justify-items-start border border-white md:border-f2 px-2 py-2 md:py-2 rounded-md overflow-hidden">
                             <img src={tony_stark} alt="undergraduate" className="h-full w-full object-cover hover:scale-105"/>
                             <div className="px-0 md:px-4 py-4 md:py-2">
-                                <h1 className="text-xl text-left text-primary font-bold">Tony Stark</h1>
-                                <p className="text-base text-justify text-black2 font-medium">Librarian</p>
+                                <h1 className="text-lg md:text-xl text-left text-primary font-bold">Tony Stark</h1>
+                                <p className="text-sm md:text-base text-justify text-black2 font-medium">Librarian</p>
                             </div>   
                         </div>
 
-                        <div className="grid gap-2 justify-items-start border border-f2 px-2 py-2 md:py-2 rounded-md overflow-hidden">
+                        <div className="grid gap-2 justify-items-start border border-white md:border-f2 px-2 py-2 md:py-2 rounded-md overflow-hidden">
                             <img src={selina_kyle_two} alt="undergraduate" className="h-full w-full object-cover hover:scale-105"/>
                             <div className="px-0 md:px-4 py-4 md:py-2">
-                                <h1 className="text-xl text-left text-primary font-bold">Harley Quinn</h1>
-                                <p className="text-base text-justify text-black2 font-medium">Chief Security Officer</p>
+                                <h1 className="text-lg md:text-xl text-left text-primary font-bold">Harley Quinn</h1>
+                                <p className="text-sm md:text-base text-justify text-black2 font-medium">Chief Security Officer</p>
                             </div>   
                         </div>
-                        </Fade>
-                        
+                        </Fade>                        
                     </div>
 
                 </div>
-
-
-                
-
-                
 
                 {/* Footer */}
                 <div className="w-full">
